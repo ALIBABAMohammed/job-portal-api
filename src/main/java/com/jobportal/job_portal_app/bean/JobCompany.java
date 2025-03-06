@@ -33,9 +33,6 @@ public class JobCompany {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
 
     public void setName(String name) {
         this.name = name;
@@ -56,5 +53,9 @@ public class JobCompany {
                 ", name='" + name + '\'' +
                 ", logo='" + logo + '\'' +
                 '}';
+    }
+
+    public String getName() {
+        return name;
     }
 }
