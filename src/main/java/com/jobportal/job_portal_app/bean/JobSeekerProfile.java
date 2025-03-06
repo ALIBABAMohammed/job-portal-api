@@ -23,7 +23,6 @@ public class JobSeekerProfile {
     private String employmentType;
     private String resume;
     private String profilePhone;
-    private String hi;
 
     @Column(nullable = true, length = 64)
     private String profilePhoto;

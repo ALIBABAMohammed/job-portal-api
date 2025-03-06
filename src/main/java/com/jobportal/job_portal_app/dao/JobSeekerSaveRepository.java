@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Component
 @Repository
 public interface JobSeekerSaveRepository extends JpaRepository<JobSeekerSave, Integer> {
 

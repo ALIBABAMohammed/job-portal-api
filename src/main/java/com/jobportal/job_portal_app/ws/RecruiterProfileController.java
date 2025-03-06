@@ -21,7 +21,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Objects;
 import java.util.Optional;
-@Component
 
 @Controller
 @RequestMapping("/recruiter-profile")

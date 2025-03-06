@@ -115,8 +115,6 @@ public class RecruiterProfile {
         if (profilePhoto == null) return null;
         return "/photos/recruiter/" + userAccountId + "/" + profilePhoto;
     }
-    private String hi;
-
     @Override
     public String toString() {
         return "RecuiterProfile{" +

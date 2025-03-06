@@ -1,6 +1,5 @@
 package com.jobportal.job_portal_app.ws;
 
-import com.jobportal.job_portal_app.bean.RecruiterProfile;
 import com.jobportal.job_portal_app.bean.Users;
 import com.jobportal.job_portal_app.bean.UsersType;
 import com.jobportal.job_portal_app.dao.UsersRepository;
@@ -24,7 +23,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 import java.util.Optional;
-@Component
 
 @Controller
 public class UsersController {

@@ -19,8 +19,6 @@ public class UsersType {
         this.userTypeName = userTypeName;
         this.users = users;
     }
-    private String hi;
-
     public UsersType() {
     }
 

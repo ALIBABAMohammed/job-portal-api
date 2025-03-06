@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-@Component
 
 @Controller
 public class JobSeekerSaveController {
