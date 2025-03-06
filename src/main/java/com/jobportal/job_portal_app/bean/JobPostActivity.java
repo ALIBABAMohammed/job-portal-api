@@ -12,6 +12,7 @@ public class JobPostActivity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer jobPostId;
+    private String hi;
 
     @ManyToOne
     @JoinColumn(name = "postedById", referencedColumnName = "userId")

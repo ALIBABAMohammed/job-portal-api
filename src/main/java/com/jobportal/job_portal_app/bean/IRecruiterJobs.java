@@ -19,4 +19,5 @@ public interface IRecruiterJobs {
     int getCompanyId();
 
     String getName();
+    String getHi();
 }

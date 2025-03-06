@@ -24,6 +24,7 @@ public class JobSeekerSave implements Serializable {
 
     public JobSeekerSave() {
     }
+    private String hi;
 
     public JobSeekerSave(Integer id, JobSeekerProfile userId, JobPostActivity job) {
         this.id = id;

@@ -46,6 +46,7 @@ public class JobCompany {
         this.logo = logo;
     }
 
+    private String hi;
     @Override
     public String toString() {
         return "JobCompany{" +

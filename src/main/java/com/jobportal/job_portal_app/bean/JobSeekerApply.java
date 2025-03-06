@@ -28,6 +28,7 @@ public class JobSeekerApply implements Serializable {
     private Date applyDate;
 
     private String coverLetter;
+    private String hi;
 
     public JobSeekerApply() {
     }

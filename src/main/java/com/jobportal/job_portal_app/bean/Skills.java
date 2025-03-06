@@ -20,6 +20,7 @@ public class Skills {
 
     public Skills() {
     }
+    private String hi;
 
     public Skills(Integer id, String name, String experienceLevel, String yearsOfExperience, JobSeekerProfile jobSeekerProfile) {
         this.id = id;

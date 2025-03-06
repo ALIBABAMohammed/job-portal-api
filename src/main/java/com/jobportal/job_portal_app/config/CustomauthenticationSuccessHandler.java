@@ -21,6 +21,7 @@ public class CustomauthenticationSuccessHandler implements AuthenticationSuccess
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authentication) throws IOException, ServletException {
         AuthenticationSuccessHandler.super.onAuthenticationSuccess(request, response, chain, authentication);
     }
+    private String hi;
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request,

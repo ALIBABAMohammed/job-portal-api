@@ -14,6 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 public class WebSecurityConfig {
+    private String hi;
 
     private final CustomUserDetailsService customUserdetailsService;
     private final CustomauthenticationSuccessHandler customauthenticationSuccessHandler;

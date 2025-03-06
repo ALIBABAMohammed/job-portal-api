@@ -4,9 +4,11 @@ import com.jobportal.job_portal_app.bean.JobPostActivity;
 import com.jobportal.job_portal_app.bean.JobSeekerProfile;
 import com.jobportal.job_portal_app.bean.JobSeekerSave;
 import com.jobportal.job_portal_app.dao.JobSeekerSaveRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+@Component
 
 @Service
 public class JobSeekerSaveService {

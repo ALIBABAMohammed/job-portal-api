@@ -2,13 +2,14 @@ package com.jobportal.job_portal_app.service;
 
 import com.jobportal.job_portal_app.bean.*;
 import com.jobportal.job_portal_app.dao.JobPostActivityRepository;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
+@Component
 @Service
 public class JobPostActivityService {
 

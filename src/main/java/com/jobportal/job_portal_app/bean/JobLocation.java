@@ -15,6 +15,7 @@ public class JobLocation {
     private String city;
     private String state;
     private String country;
+    private String hi;
 
     public JobLocation() {
     }

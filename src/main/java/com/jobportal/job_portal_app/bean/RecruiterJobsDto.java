@@ -7,6 +7,7 @@ public class RecruiterJobsDto {
     private String jobTitle;
     private JobLocation jobLocationId;
     private JobCompany jobCompanyId;
+    private String hi;
 
     public RecruiterJobsDto(Long totalCandidates, Integer jobPostId, String jobTitle, JobLocation jobLocationId, JobCompany jobCompanyId) {
         this.totalCandidates = totalCandidates;

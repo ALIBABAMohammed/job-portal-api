@@ -5,9 +5,11 @@ import com.jobportal.job_portal_app.bean.JobSeekerApply;
 import com.jobportal.job_portal_app.bean.JobSeekerProfile;
 import com.jobportal.job_portal_app.dao.JobSeekerApplyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+@Component
 
 @Service
 public class JobSeekerApplyService {
