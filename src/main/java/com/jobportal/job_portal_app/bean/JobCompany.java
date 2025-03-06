@@ -15,13 +15,14 @@ public class JobCompany {
     private String name;
     private String logo;
 
-    public JobCompany() {
-    }
 
     public JobCompany(Integer id, String name, String logo) {
         this.id = id;
         this.name = name;
         this.logo = logo;
+    }
+
+    public JobCompany() {
     }
 
     public Integer getId() {
